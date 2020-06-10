@@ -1,0 +1,20 @@
+<? include("user_chksession.php");
+$pgNo=3;
+if(!$_SESSION['servey_info']['survey_takerinfo_id'])
+{
+	$obj->reDirect(FURL."start_survey.php");
+}
+else
+{
+	if($_POST['Next'])
+	{
+		if($_SESSION['servey_info']['pageNo']<$pgNo)
+		{
+			$_SESSION['servey_info']['pageNo']=$pgNo;
+		}
+		$_POST['survey_takerinfo_ip']=$_SERVER['REMOTE_ADDR'];
+		$obj->updateData(TABLE_SURVEY_TAKERINFO,$_POST,"survey_takerinfo_id='".$_SESSION['servey_info']['survey_takerinfo_id']."'");
+		$obj->reDirect(FURL."survey_question_1.php");
+	}
+}
+?>

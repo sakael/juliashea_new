@@ -1,0 +1,45 @@
+<? include("user_chksession.php");
+$pgNo=3;
+if(!$_SESSION['servey_info']['survey_takerinfo_id'])
+{
+	$obj->reDirect(FURL."start_survey.php");
+}
+else
+{
+	if($_POST['Next'])
+	{
+		$pgNo=3+$_POST['pgnocur'];
+		if($_SESSION['servey_info']['pageNo']<$pgNo)
+		{
+			$_SESSION['servey_info']['pageNo']=$pgNo;
+		}
+		$tot_q=$_POST['tot_q'];
+		$pgnocur=$_POST['pgnocur'];
+		for($qu=1;$qu<=$tot_q;$qu++)
+		{
+			$arrAns['survey_answer_crdt']=date("Y-m-d H:i:s");
+			$arrAns['survey_answer_qid']=$_POST['q_'.$qu];
+			$arrAns['survey_takerinfo_id']=$_SESSION['servey_info']['survey_takerinfo_id'];
+			if($_POST['q_type_'.$qu]==1)
+			{
+				$arrAns['survey_answer_opid']=$_POST['op_'.$qu];
+				$arrAns['survey_answer_optxt']='';
+			}
+			if($_POST['q_type_'.$qu]==2)
+			{
+				$arrAns['survey_answer_opid']=0;
+				$arrAns['survey_answer_optxt']=$_POST['op_'.$qu];
+			}
+			if($_POST['q_ed_'.$qu])
+			{
+				$obj->updateData(TABLE_SURVEY_ANSWER,$arrAns,"survey_answer_id='".$_POST['q_ed_'.$qu]."'");
+			}
+			else
+			{
+				$obj->insertData(TABLE_SURVEY_ANSWER,$arrAns);
+			}
+		}
+		$obj->reDirect(FURL."survey_question_".($pgnocur+1).".php");
+	}
+}
+?>

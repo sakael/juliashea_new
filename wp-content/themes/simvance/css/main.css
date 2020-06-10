@@ -1,0 +1,402 @@
+@import "../fonts/font-awesome/less/font-awesome.css";
+/* 0. Bootstrap Fixes
+-------------------------------------------------------	*/
+body {
+  background: #eee;
+}
+#main {
+  width: 100%;
+}
+.container {
+  margin: auto;
+}
+code {
+  white-space: pre-wrap !important;
+}
+/* 1. Less Variables & Mixins
+-------------------------------------------------------	*/
+.font {
+  font-family: "Droid Serif", Helvetica, Arial, sans-serif;
+}
+/* 2. Header
+------------------------------------------------------- */
+body {
+  font-family: "Droid Serif", Helvetica, Arial, sans-serif;
+  background: none;
+}
+#masthead {
+  margin: 10px auto;
+  margin-bottom: 0px;
+  padding: 80px 0px;
+}
+.site-title {
+  font-family: "Bree Serif", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+}
+.site-title a {
+  color: black;
+  padding: 15px 5px;
+}
+.site-title a:hover {
+  text-decoration: none;
+}
+.site-description {
+  font-family: "Droid Serif", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin-top: 0px;
+}
+.main_logo {
+  max-width: 360px;
+}
+.site-branding {
+  text-align: center;
+}
+#social-icons {
+  float: none;
+  text-align: center;
+  margin-top: 18px;
+}
+.social-icon {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 26px;
+}
+.social-icon:hover {
+  color: #0000ff;
+}
+a:hover .social-icon {
+  text-decoration: none;
+}
+@media screen and (max-width: 992px) {
+  .site-title,
+  .site-description,
+  #social-icons {
+    text-align: center;
+    float: none;
+  }
+}
+/* 3. Links
+------------------------------------------------------- */
+a {
+  color: #0000cc;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #0000ff;
+}
+/* 4. Navigation Menu 
+-------------------------------------------------------	*/
+.nav-wrapper {
+  background: #e8e8e8;
+  border-bottom: solid 4px #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.nav-wrapper .navbar-default {
+  margin-top: 5px;
+  border: none;
+  margin-bottom: 5px;
+  background: #e8e8e8;
+  font-family: "Bree Serif", Times, serif;
+  font-size: 17px;
+}
+.nav-wrapper ul ul {
+  background: #d7d7d7;
+  border: none;
+  top: 4.2em;
+}
+.nav-wrapper ul ul a:hover {
+  background: #e8e8e8;
+  color: #333;
+}
+ul.nav ul li.dropdown:hover > ul.dropdown-menu {
+  /*  display: block;  */
+}
+/* 5. Slider
+-------------------------------------------------*/
+.slider-wrapper {
+  margin: auto;
+  margin-top: 15px;
+}
+.slide-title {
+  font-family: "Droid Serif", Helvetica, Arial, sans-serif;
+  color: #ddd;
+}
+.nivo-caption {
+  max-width: 550px;
+  min-width: 200px;
+  overflow: hidden;
+  bottom: 15px;
+  left: 10px;
+}
+.nivo-html-caption {
+  display: none;
+}
+div.slide-title {
+  font-size: 36px;
+  display: block;
+}
+div.slide-description {
+  font-family: Helvetica, Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+  div.slide-title {
+    font-size: 18px;
+  }
+  div.slide-description {
+    font-size: 13px;
+  }
+}
+/* 6. Content 
+------------------------------------------------------- */
+#content {
+  background: white;
+}
+/* 6.1 Primary 
+------------------------------------------------------- */
+.featured-thumb {
+  margin-top: 35px;
+  text-align: center;
+}
+.featured-thumb img {
+  box-shadow: 0px 1px 2px #444;
+}
+.featured-thumb img:hover {
+  opacity: 0.95;
+}
+.archive .entry-title a {
+  font-family: "Bree Serif", Arial, sans-serif;
+  font-size: 28px;
+  color: black;
+}
+.archive .entry-title a:hover {
+  color: #0000ff;
+}
+.archive .entry-meta {
+  font-size: small;
+  color: #0000cc;
+}
+.archive .entry-meta .posted-on {
+  margin-right: 6px;
+}
+.featured-image-single {
+  text-align: center;
+}
+.featured-image-single img {
+  max-width: 80%;
+  box-shadow: 0px 2px 2px #888;
+  margin-bottom: 25px;
+}
+/* 6.2 Secondary 
+------------------------------------------------------- */
+#secondary {
+  padding-top: 10px;
+}
+#secondary ul {
+  list-style: none;
+  margin-left: 5px;
+}
+#secondary ul li:before {
+  margin-right: 5px;
+  content: "\f0da";
+  font-family: "FontAwesome";
+  color: #0000cc;
+}
+#secondary ul ul {
+  margin-left: 15px;
+}
+#secondary ul ul ul {
+  margin-left: 5px;
+}
+#secondary .widget_recent_entries li:before {
+  content: "\f0f6";
+}
+#secondary .widget_recent_entries li {
+  border-bottom: solid 1px #eee;
+  padding: 5px 0px;
+}
+#secondary .widget_recent_comments li:before {
+  content: "\f075";
+}
+#secondary .widget_recent_comments li {
+  border-bottom: solid 1px #eee;
+  padding: 5px 0px;
+}
+#secondary h1.widget-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000;
+  border-bottom: solid 4px #eee;
+  padding-bottom: 9px;
+  padding: 9px 5px;
+}
+#secondary .tagcloud a {
+  font-size: 13px !important;
+  color: #444;
+  background: #eee;
+  padding: 5px;
+  display: inline-block;
+  margin: 3px 1px;
+  transition: 0.4s all ease;
+}
+#secondary .tagcloud a:hover {
+  background: #ddd;
+  text-decoration: none;
+  color: #0000cc;
+}
+#secondary .widget_search {
+  margin-left: 20px;
+}
+#secondary .widget_search input[type=submit] {
+  display: inline-block;
+}
+#secondary .widget_search input[type=search] {
+  display: block;
+  width: 100% !important;
+}
+/* 7. Pagination
+-----------------------------------------------*/
+.pagination {
+  margin: 20px 0;
+  /* text-align: center; */
+
+  width: 100%;
+  margin-left: -40px;
+  clear: both;
+}
+.pagination ul {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 0;
+}
+.pagination ul > li {
+  display: inline;
+}
+.pagination ul > li > a {
+  color: #e8e8e8;
+  transition: all 0.4s ease;
+}
+.pagination ul > li > a .next {
+  float: right;
+}
+.pagination ul > li > a:hover {
+  color: #0000cc;
+  background: #e3e3e3;
+}
+.pagination .current {
+  background: #e4e2e2;
+}
+.pagination ul  > li  > a,
+.pagination ul  > li  > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #fcfcfc;
+  border: solid 1px #f1f1f1;
+  border-left-width: 0;
+  display: inline-block;
+  color: #2929a3;
+}
+.pagination ul  > li:first-child  > a,
+.pagination ul  > li:first-child  > span {
+  border-left-width: 1px;
+}
+.pagination ul  > li:last-child  > a,
+.pagination ul  > li:last-child  > span {
+  border-rigth-width: 1px;
+}
+/* 8. Footer 
+------------------------------------------------------- */
+#colophon {
+  background: #e8e8e8;
+  padding: 10px;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 4px #ddd;
+}
+.site-info {
+  font-size: 12px;
+  float: right;
+  text-align: right;
+}
+#footertext {
+  float: left;
+  text-align: left;
+}
+/* 9. HTML Markup & Formatting
+--------------------------------------------------- */
+article table {
+  background: #f7f7f7;
+}
+article table td {
+  padding: 5px;
+  border: solid 1px #eee;
+}
+article table th {
+  padding: 5px;
+  background: #ccc;
+  border: solid 1px #ccc;
+}
+/* 10. Widgets Style
+---------------------------------------------------- */
+.rp-item {
+  display: block;
+  clear: both;
+  overflow: auto;
+  margin-bottom: 5px;
+  border-bottom: solid 1px #9999ff;
+  padding-bottom: 5px;
+}
+.rp-item:last-child {
+  border-bottom: none;
+}
+.rp-item:before {
+  content: none !important;
+}
+.rp-thumb {
+  float: left;
+  width: 64px;
+  margin-right: -5px;
+  margin-top: 3px;
+}
+.rp-thumb img {
+  width: 48px;
+  border: solid 2px #eee;
+  border-radius: 2px;
+}
+.rp-thumb rp-title {
+  clear: none;
+}
+.rp-thumb rp-title a {
+  display: block;
+}
+/* 11.1 Comments
+---------------------------------------------------------- */
+#respond input[type=text] {
+  max-width: 450px;
+}
+#comments ol.comment-list {
+  list-style: none;
+}
+#comments li.comment {
+  border: solid 1px #e8e8e8;
+  padding: 10px;
+  margin-top: 15px;
+  list-style: none;
+}
+#comments .vcard img {
+  border: solid 4px #e8e8e8;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}
+#comments .comment-metadata {
+  font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  .vcard img {
+    width: 100px !important;
+    height: auto;
+  }
+}

@@ -1,0 +1,119 @@
+/*
+Theme Name: RealHomes Child Theme
+Theme URI: http://alt-realhomes.inspirythemes.com/
+Description: Child theme for RealHomes.
+Author: Inspiry Themes
+Author URI: http://www.inspirythemes.com/
+Template: realhomes
+Version: 1.1
+
+
+!!! IMPORTANT !!!
+PLEASE ADD YOUR CSS STYLES IN child-custom.css FILE instead of style.css
+!!! IMPORTANT !!!
+
+*/
+
+@import url("../realhomes/style.css");
+.header-wrapper{
+	background-image:url(images/backgroundheader.jpg);
+	background-repeat:repeat-x;
+	background-size:100% 100%;
+}
+.gallery-image-new{
+	max-width:342px;
+	max-height:172px;
+	display:inline-block !important;
+}
+.gallery-item{
+	min-height:282px;	
+}
+.gallery-item .item-title{
+	text-align: center;
+}
+.gallery-item figure{
+	text-align:center;
+}
+#header{
+	padding-bottom: 35px;
+}
+#header-top{
+	margin-bottom:0px !important;
+	border-bottom:none !important;
+}
+#header-top .social_networks li a{
+	border-left:none !important;	
+}
+.link_mobile{
+	display:none !important;	
+}
+#property-detail-flexslider .flexslider .slides img{
+	max-height:100% !important;
+	display:inline !important;	
+}
+.flexslider .slides > li{
+	text-align:center;	
+}
+@media (max-width: 480px) {
+.link_mobile{
+	display:inline-block !important;
+}
+.link_web{
+	display:none !important;
+}
+
+}
+@media (max-width: 767px) {
+.link_mobile{
+	display:inline-block !important;
+}
+.link_web{
+	display:none !important;
+}
+
+}
+.super{
+	position:absolute;
+	left: 26px;
+bottom: 25px;
+}
+.super img{
+	max-width:100px !important;	
+}
+#logo{
+	position:relative;	
+}
+@media (max-width: 767px) {
+	.super{
+	position:relative;
+	margin:20px 0 10px 0;
+	left:auto !important;
+	top:0 !important;
+	}
+}
+.advance-search{
+	padding-top: 53px;
+}
+.advance-search .search-heading{
+	top:0 !important;
+}
+.tp-rightarrow{
+	background: url(images/arrow.png) no-repeat 0 0 !important;
+}
+.tp-leftarrow:hover, .tp-rightarrow:hover {
+    background-position: bottom left !important;
+}
+.tp-leftarrow{
+	background: url(images/arrow-left.png) no-repeat 0 0 !important;
+}
+.tp-leftarrow:hover, .tp-leftarrow:hover {
+    background-position: bottom left !important;
+}
+.right-icons-header a{
+	display:block !important;
+}
+.right-icons-header{
+	margin:0 auto;
+	text-align:center;
+	margin-top:50px;
+}

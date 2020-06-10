@@ -1,0 +1,70 @@
+.tp-caption.roundedtext_new {
+display:block;
+margin:2em 0px;
+background-color:rgb(86, 160, 179);
+background-color:rgba(86, 160, 179, 0.7);
+padding:25px 20px;
+color:rgb(255, 255, 255);
+text-align:center;
+text-decoration:none;
+font-size:18px;
+border-radius:20px 20px 20px 20px;
+border-width:0px;
+border-color:rgb(255, 255, 255);
+border-style:none;
+}
+
+.tp-caption.black {
+font-size:49px;
+text-decoration:none;
+text-shadow:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.mediumwhitebg {
+font-size:30px;
+line-height:30px;
+font-weight:300;
+font-family:"Open Sans";
+color:rgb(0, 0, 0);
+text-decoration:none;
+background-color:rgb(255, 255, 255);
+padding:5px 15px 10px;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.large_bold_white {
+font-size:58px;
+line-height:60px;
+font-weight:800;
+font-family:"Open Sans";
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.roundedtext {
+font-size:30px;
+line-height:30px;
+font-weight:700;
+font-family:Lato;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:rgb(77, 199, 236);
+padding:50px 10px;
+text-shadow:none;
+border-radius:500px 500px 500px 500px;
+border-width:5px;
+border-color:rgb(255, 255, 255);
+border-style:solid;
+}
+

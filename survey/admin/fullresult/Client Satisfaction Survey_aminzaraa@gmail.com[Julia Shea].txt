@@ -1,0 +1,34 @@
+Survey Title: Client Satisfaction Survey
+Completed by aminzaraa@gmail.com[Julia Shea] on November 17th, 2014
+
+1 => Not at all Satisfied
+2 => 2
+3 => Slightly Satisfied
+4 => 4
+5 => Neutral
+6 => 6
+7 => Moderately Satisfied
+8 => 8
+9 => Very Satisfied
+10 => Completely Satisfied
+
+Q.1. I would appreciate any referrals of your friends and family to me.  Who do you know that is thinking about making a move?
+A. 
+
+Questions for Info
+
+Q.1. Names / Birthdays (Month/Day)
+A. Mohammadamin Zare/08/01
+
+Q.2. What are your favorite restaurant(s) or food(s)?
+A. Italian
+
+Q.3. Social Media IDs (LinkedIn, Twitter, WindowsIM, Facebook, MySpace)
+A. Facebook
+
+Q.4. Please help give me feedback by completing the following reviews: angieslist.com/review/2271740  ;  http://www.zillow.com/reviews/write/?s=X1-ZUz3odijxpn4sp_8i7yn
+A. 
+
+Q.5. I authorize my responses to be used by Julia Shea, Inc. (Yes or No)
+A. Yes
+

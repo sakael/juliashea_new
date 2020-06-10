@@ -1,0 +1,7 @@
+AddHandler php5-script .php
+<IfModule mod_rewrite.c> 	
+RewriteEngine on  	
+RewriteRule ^(.*)/(.*)/$ index.php?acckey=$2 [L,QSA]
+RewriteRule ^survey_question_([0-9]+).php$ survey_question.php?pageno=$1 [L,QSA]
+</IfModule>
+

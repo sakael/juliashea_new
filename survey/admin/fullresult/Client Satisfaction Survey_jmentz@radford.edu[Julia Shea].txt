@@ -1,0 +1,70 @@
+Survey Title: Client Satisfaction Survey
+Completed by jmentz@radford.edu[Julia Shea] on December 6th, 2010
+
+1 => Not at all Satisfied
+2 => 2
+3 => Slightly Satisfied
+4 => 4
+5 => Neutral
+6 => 6
+7 => Moderately Satisfied
+8 => 8
+9 => Very Satisfied
+10 => Completely Satisfied
+
+Q.1. How well did I deliver what I promised?
+A. Completely Satisfied
+
+Q.2. Comments Question 1:
+A. 
+
+Q.3. How accessible was I when you needed to contact me?
+A. Completely Satisfied
+
+Q.4. Comments Question 2:
+A. 
+
+Q.5. How well did I listen to you?
+A. Completely Satisfied
+
+Q.6. Comments Question 3:
+A. 
+
+Q.7. How willing would you be to recommend me?
+A. Completely Satisfied
+
+Q.8. Comments Question 4:
+A. 
+
+Q.9. How would you rate my quality of service?
+A. Completely Satisfied
+
+Q.10. Comments Question 5:
+A. 
+
+Q.11. If you were in charge of my business, what one thing would you change?
+A. 
+
+Q.12. What is the one thing I could add to my service to make it a 10+?
+A. 
+
+Q.13. How could I do a better job of serving you?
+A. 
+
+Q.14. I would appreciate any referrals of your friends and family to me.  Who do you know that is thinking about making a move?
+A. 
+
+Q.15. Is there anything else you would like to share with me?
+A. 
+
+Questions for Info
+
+Q.1. Names / Birthdays (Month/Day)
+A. 
+
+Q.2. What are your favorite restaurant(s) or food?
+A. 
+
+Q.3. Social Media IDs (LinkedIn, Twitter, WindowsIM, Facebook, MySpace)
+A. 
+

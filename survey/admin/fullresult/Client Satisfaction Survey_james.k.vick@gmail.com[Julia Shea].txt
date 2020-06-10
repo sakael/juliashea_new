@@ -1,0 +1,37 @@
+Survey Title: Client Satisfaction Survey
+Completed by james.k.vick@gmail.com[Julia Shea] on June 8th, 2016
+
+1 => Not at all Satisfied
+2 => 2
+3 => Slightly Satisfied
+4 => 4
+5 => Neutral
+6 => 6
+7 => Moderately Satisfied
+8 => 8
+9 => Very Satisfied
+10 => Completely Satisfied
+
+Q.1. I would appreciate any referrals of your friends and family to me.  Who do you know that is thinking about making a move?
+A. No one at this time but your name would be the first out of my mouth
+
+Q.2. (Optional)  Please help give me feedback by providing a recommendation for my Realtor.com profile.
+A. Sure! Julia Shea listened to what we were looking for and found some great homes. Once we settled on a home she was a solid advocate for our interests. To top it all off she is just a really nice person :)
+
+Q.3. Please help give me feedback by completing reviews on my Angie's List &amp; Realtor.com profiles by following these links (you may need to copy and paste them into your browser):  angieslist.com/review/2271740 ; http://www.realtor.com/realestateagents/Julia-Shea_Norfolk_VA_518735_334199751
+A. 
+
+Q.4. I authorize my responses to be used by Julia Shea, Inc.  (Yes or No)
+A. Yes
+
+Questions for Info
+
+Q.1. Names / Birthdays (Month/Day)
+A. 
+
+Q.2. What are your favorite restaurant(s) or food(s)?
+A. Mexican, thai, indian, seafood
+
+Q.3. Social Media IDs (LinkedIn, Twitter, WindowsIM, Facebook, MySpace)
+A. Facebook kyle vick
+

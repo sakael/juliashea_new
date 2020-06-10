@@ -1,0 +1,27 @@
+Version 1.0
+
+	i) Initial Release.
+	
+Version 1.1
+
+	i) removed menu parameter from wp_nav_menu
+	ii) Added default value for layout
+	iii) namespaced all functions and hooks
+	
+Version 1.2
+
+	i) Added option to display featured image on post page.
+	ii) Fixed Continue Reading Spelling Bug	
+	
+Version 1.2.1
+
+	i) Fixed Problems related to attribution.	
+	
+Version 1.2.2
+
+	i) Removal of Plugin Territory dirname('file')	
+	
+Version 1.2.3
+
+	i) Minor Bug Fixes.
+	i) Removed image.php for attachments. 	

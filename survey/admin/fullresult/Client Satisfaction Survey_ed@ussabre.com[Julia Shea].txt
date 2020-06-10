@@ -1,0 +1,53 @@
+Survey Title: Client Satisfaction Survey
+Completed by ed@ussabre.com[Julia Shea] on July 9th, 2009
+
+Q.1. How well did I deliver what I promised?
+A. Not at all Satisfied
+
+Q.2. Comments Question 1:
+A. Great
+
+Q.3. How accessible was I when you needed to contact me?
+A. Neutral
+
+Q.4. Comments Question 2:
+A. Bad
+
+Q.5. How well did I listen to you?
+A. Neutral
+
+Q.6. Comments Question 3:
+A. Awesome
+
+Q.7. How willing would you be to recommend me?
+A. 4
+
+Q.8. Comments Question 4:
+A. Less than
+
+Q.9. How would you rate my quality of service?
+A. Neutral
+
+Q.10. Comments Question 5:
+A. More than
+
+Q.11. If you were in charge of my business, what one thing would you change?
+A. THIS WOULD BE IT
+
+Q.12. What is the one thing I could add to my service to make it a 10+?
+A. DO THIS
+
+Q.13. How could I do a better job of serving you?
+A. DON&quot;T DO THIS
+
+Q.14. I would appreciate any referrals of your friends and family to me.  Who do you know that is thinking about making a move?
+A. SMART GUY
+
+Q.15. Is there anything else you would like to share with me?
+A. NOPE
+
+Questions for Info
+
+Q.1. Comments Question 9:
+A. 
+

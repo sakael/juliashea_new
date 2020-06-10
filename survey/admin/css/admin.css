@@ -1,0 +1,191 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #fafafa;
+}
+
+body,table,tr,td,div,p,a{font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size: 11px;color: #000000;text-decoration: none;}
+form,ul, li {margin:0px;padding:0px;}
+.input{height:20px;border:#4182ab solid 1px;background-color:#eff2f3;}
+.textarea{
+	text-decoration: none;
+	border:#4182ab solid 1px;
+	background-color:#eff2f3;
+}
+.submit{
+	background:url('../images/btnbg.jpg') repeat-x;
+	border:1px solid #990000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:#3300CC;
+	text-decoration: none;
+	cursor:pointer;
+	height:20px;
+}
+.header_bg {
+	background-image:url(../images/logobg.jpg);
+	background-repeat:repeat-x;
+}
+
+.headerBG_lft {background:url(../images/header_leftBG.jpg) no-repeat top left;}
+
+/*.header_bg {
+	background:#ffffff;
+}
+*/.black_text {
+	color: #000000;
+}
+.blue_text{
+	color: #003399;
+}
+.blue_text:hover{
+	color: #4c78cf;
+}
+.blue_link{
+	color: #ef6d29;
+	text-decoration:underline;
+}
+.blue_link:hover{
+	color: #4c78cf;
+	text-decoration:none;
+}
+.home_menu_link {
+	font-weight: bold;
+	color: #959595;
+	text-decoration:none;
+}
+.home_menu_link:hover {
+	color: #fafa28;
+}
+.red_text {
+	font-size: 11px;
+	color: #ff0000;
+}
+.error {
+	font-size: 10px;
+	color: #ff0000;
+}
+.leftmenu_link {
+	font-weight: bold;
+	color: #3333cc;
+	text-decoration: none;
+}
+.leftmenu_link:hover {
+	color: #959595;
+}
+.header_menu_bg {
+	background:url(../images/menubg.jpg) repeat-x;
+	height:33px;
+}
+.left_menu_bg{
+	background-image:url(../images/left_menu_bg.jpg);
+	background-repeat:repeat-x;
+	height:28px;
+	border-left:#3333cc solid 1px;
+	border-right:#3333cc solid 1px;
+}
+.top_menu{
+	font-weight: bold;
+	color:#000066;
+	text-decoration:none;
+}
+.top_menu:hover{
+	color: #0066cc;
+	text-decoration:underline;
+}
+.td_heading{
+	background-color:#3333cc;
+	border:#3333cc solid 1px;
+	font-weight: bold;
+	color: #959595;
+	height:25px;
+	padding-left:5px;
+	text-decoration: none;
+}
+.td_bottom{
+	background-color:#14148e;
+}
+.tr_bg{
+	background-color:#f1f1f1;
+}
+.tr_bg2{
+	background-color:#eaeaea;
+}
+.border {
+	border: 1px solid #3333cc;
+}
+.border2 {
+	border: 1px solid #3333cc;
+	background-color:#FFFFFF;
+}
+
+.inner{
+	padding-left:20px;
+	padding-right:20px;
+}
+.inner_left{
+	padding-left:20px;
+}
+.devider {
+	border-top: 1px  #4182ab solid;
+}
+.copyright {
+	font-size: 10px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+}
+.copyright:hover {
+	color:50b4ff;
+	text-decoration: underline;
+}
+.footer_bg {
+	font-size: 10px;
+	font-weight: normal;
+	color:black;
+	text-decoration: none;
+	background-image:url(../images/footer_bg.jpg);
+	background-repeat:repeat-x;
+	height:55px;
+}
+.innertable {
+	border: 1px solid #014A8F;
+	background-color: #e8f5fb;
+}
+.mainbodybg {
+	background:url(../images/mainbodybg.jpg) repeat-x #ffffff;
+}
+.boxbg {
+	background:url(../images/boxbg.gif) repeat-x;
+}
+.blacktxt_bold {
+	font: bold 11px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+#op_div {
+	position:absolute;
+	left:450px;
+	top:250px;
+	width:339px;
+	height:175px;
+	z-index:1;
+}
+
+
+/*....................pagenation.................  */
+.pagefirstlast{color:#660000;font-weight:bold;text-decoration:none;}
+.pagefirstlast:hover{color:#000066;	text-decoration:underline;}
+.pagenextprev{color:#990033;font-weight:bold;text-decoration:none;}
+.pagenextprev:hover{color:#666666;text-decoration:underline;}
+.pagenumbers{color:#0000CC;	font-weight:bold;text-decoration:none;}
+.pagenumbers:hover{color:#00CCFF;text-decoration:underline;}
+.pagenumberselected{font-size:16px;color:#FF0000;font-weight:bold;text-decoration:none;}
+.pagecounter{color:#000000;font-weight:bold;}
+.limitdropdown{color:#666666;font-weight:bold;}
+.notfounderror{font-size:10px;color:#FF0000;font-weight:bold;text-decoration:none;}
+.limitdropdowntext{color:#000000;font-weight:bold;}
+.pagedropdowntext{color:#000000;font-weight:bold;}
+.dropdownpaging{color:#000000;font-weight:bold;}

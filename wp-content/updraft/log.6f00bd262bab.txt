@@ -1,0 +1,205 @@
+0000.010 (0) Opened log file at time: Fri, 15 Mar 2019 10:31:12 +0000 on http://juliashea.com
+0000.014 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.6.14 PHP: 5.3.29 (cgi-fcgi, Linux n34 4.9.96mtv23 #1 SMP Tue May 15 14:22:40 PDT 2018 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache/2.2.34 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 53.7M | 54M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 3043604.4 MB
+0000.031 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.035 (0) Semaphore (d, realestate_options) being initialised
+0000.059 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.066 (0) Set semaphore last lock (d) time to 2019-03-15 10:31:12
+0000.068 (0) Semaphore lock (d) complete
+0000.085 (0) Backup run: resumption=0, nonce=6f00bd262bab, begun at=1552645872 (0s ago), job type=backup
+0000.090 (0) Scheduling a resumption (1) after 300 seconds (1552646172) in case this run gets aborted
+0000.133 (0) This backup run is not intended for files - skipping
+0000.137 (0) Beginning creation of database dump (WordPress DB)
+0000.190 (0) Table realestate_options: Total expected rows (approximate): 927
+0000.555 (0) Table realestate_options: Total rows added: 1080 in 0.36 seconds
+0000.579 (0) Table realestate_options: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_options.table.gz - 1927.3 KB)
+0000.595 (0) Table realestate_users: Total expected rows (approximate): 0
+0000.620 (0) Table realestate_users: Total rows added: 1 in 0.02 seconds
+0000.623 (0) Table realestate_users: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_users.table.gz - 0.5 KB)
+0000.638 (0) Table realestate_usermeta: Total expected rows (approximate): 27
+0000.659 (0) Table realestate_usermeta: Total rows added: 30 in 0.02 seconds
+0000.662 (0) Table realestate_usermeta: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_usermeta.table.gz - 1.9 KB)
+0000.672 (0) Table realestate_commentmeta: Total expected rows (approximate): 50
+0000.691 (0) Table realestate_commentmeta: Total rows added: 50 in 0.02 seconds
+0000.698 (0) Table realestate_commentmeta: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_commentmeta.table.gz - 0.6 KB)
+0000.716 (0) Table realestate_comments: Total expected rows (approximate): 51
+0000.743 (0) Table realestate_comments: Total rows added: 52 in 0.02 seconds
+0000.748 (0) Table realestate_comments: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_comments.table.gz - 6.8 KB)
+0000.766 (0) Table realestate_links: Total expected rows (approximate): 0
+0000.792 (0) Table realestate_links: Total rows added: 0 in 0.02 seconds
+0000.797 (0) Table realestate_links: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_links.table.gz - 0.4 KB)
+0000.815 (0) Table realestate_postmeta: Total expected rows (approximate): 14409
+0003.206 (0) Table realestate_postmeta: Total rows added: 22665 in 2.39 seconds
+0003.219 (0) Table realestate_postmeta: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_postmeta.table.gz - 773.6 KB)
+0003.273 (0) Table realestate_posts: Total expected rows (approximate): 4270
+0004.681 (0) Table realestate_posts: Total rows added: 7504 in 1.39 seconds
+0004.689 (0) Table realestate_posts: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_posts.table.gz - 476.9 KB)
+0004.701 (0) Table realestate_term_relationships: Total expected rows (approximate): 1533
+0004.777 (0) Table realestate_term_relationships: Total rows added: 2780 in 0.07 seconds
+0004.781 (0) Table realestate_term_relationships: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_term_relationships.table.gz - 6.9 KB)
+0004.790 (0) Table realestate_term_taxonomy: Total expected rows (approximate): 76
+0004.817 (0) Table realestate_term_taxonomy: Total rows added: 89 in 0.02 seconds
+0004.820 (0) Table realestate_term_taxonomy: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_term_taxonomy.table.gz - 1.1 KB)
+0004.833 (0) Table realestate_termmeta: Total expected rows (approximate): 0
+0004.850 (0) Table realestate_termmeta: Total rows added: 0 in 0.02 seconds
+0004.853 (0) Table realestate_termmeta: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_termmeta.table.gz - 0.3 KB)
+0004.871 (0) Table realestate_terms: Total expected rows (approximate): 76
+0004.892 (0) Table realestate_terms: Total rows added: 89 in 0.02 seconds
+0004.895 (0) Table realestate_terms: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_terms.table.gz - 1.7 KB)
+0004.910 (0) Table realestate_email: Total expected rows (approximate): 0
+0004.933 (0) Table realestate_email: Total rows added: 0 in 0.02 seconds
+0004.938 (0) Table realestate_email: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_email.table.gz - 0.4 KB)
+0004.950 (0) Table realestate_itsec_lockouts: Total expected rows (approximate): 0
+0004.969 (0) Table realestate_itsec_lockouts: Total rows added: 0 in 0.02 seconds
+0004.972 (0) Table realestate_itsec_lockouts: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_itsec_lockouts.table.gz - 0.4 KB)
+0004.981 (0) Table realestate_itsec_log: Total expected rows (approximate): 3
+0004.997 (0) Table realestate_itsec_log: Total rows added: 3 in 0.01 seconds
+0004.999 (0) Table realestate_itsec_log: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_itsec_log.table.gz - 0.6 KB)
+0005.010 (0) Table realestate_itsec_temp: Total expected rows (approximate): 4
+0005.028 (0) Table realestate_itsec_temp: Total rows added: 4 in 0.02 seconds
+0005.032 (0) Table realestate_itsec_temp: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_itsec_temp.table.gz - 0.5 KB)
+0005.044 (0) Table realestate_revslider_css: Total expected rows (approximate): 54
+0005.067 (0) Table realestate_revslider_css: Total rows added: 54 in 0.02 seconds
+0005.070 (0) Table realestate_revslider_css: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_css.table.gz - 2.1 KB)
+0005.082 (0) Table realestate_revslider_layer_animations: Total expected rows (approximate): 0
+0005.104 (0) Table realestate_revslider_layer_animations: Total rows added: 1 in 0.02 seconds
+0005.107 (0) Table realestate_revslider_layer_animations: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_layer_animations.table.gz - 0.4 KB)
+0005.116 (0) Table realestate_revslider_settings: Total expected rows (approximate): 0
+0005.131 (0) Table realestate_revslider_settings: Total rows added: 0 in 0.01 seconds
+0005.133 (0) Table realestate_revslider_settings: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_settings.table.gz - 0.3 KB)
+0005.143 (0) Table realestate_revslider_sliders: Total expected rows (approximate): 0
+0005.159 (0) Table realestate_revslider_sliders: Total rows added: 1 in 0.01 seconds
+0005.163 (0) Table realestate_revslider_sliders: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_sliders.table.gz - 1.3 KB)
+0005.183 (0) Table realestate_revslider_slides: Total expected rows (approximate): 9
+0005.202 (0) Table realestate_revslider_slides: Total rows added: 8 in 0.02 seconds
+0005.205 (0) Table realestate_revslider_slides: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_slides.table.gz - 2.4 KB)
+0005.232 (0) Table realestate_wfBadLeechers: Total expected rows (approximate): 0
+0005.251 (0) Table realestate_wfBadLeechers: Total rows added: 0 in 0.02 seconds
+0005.254 (0) Table realestate_wfBadLeechers: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfBadLeechers.table.gz - 0.3 KB)
+0005.265 (0) Table realestate_wfBlocks: Total expected rows (approximate): 0
+0005.291 (0) Table realestate_wfBlocks: Total rows added: 0 in 0.02 seconds
+0005.295 (0) Table realestate_wfBlocks: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfBlocks.table.gz - 0.3 KB)
+0005.309 (0) Table realestate_wfBlocksAdv: Total expected rows (approximate): 0
+0005.329 (0) Table realestate_wfBlocksAdv: Total rows added: 0 in 0.02 seconds
+0005.332 (0) Table realestate_wfBlocksAdv: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfBlocksAdv.table.gz - 0.3 KB)
+0005.345 (0) Table realestate_wfConfig: Total expected rows (approximate): 116
+0005.366 (0) Table realestate_wfConfig: Total rows added: 116 in 0.02 seconds
+0005.370 (0) Table realestate_wfConfig: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfConfig.table.gz - 6.3 KB)
+0005.380 (0) Table realestate_wfCrawlers: Total expected rows (approximate): 0
+0005.393 (0) Table realestate_wfCrawlers: Total rows added: 0 in 0.01 seconds
+0005.397 (0) Table realestate_wfCrawlers: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfCrawlers.table.gz - 0.3 KB)
+0005.406 (0) Table realestate_wfFileMods: Total expected rows (approximate): 21405
+0006.586 (0) Table realestate_wfFileMods: Total rows added: 21405 in 1.18 seconds
+0006.594 (0) Table realestate_wfFileMods: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfFileMods.table.gz - 891.8 KB)
+0006.609 (0) Table realestate_wfHits: Total expected rows (approximate): 1840
+0006.760 (0) Table realestate_wfHits: Total rows added: 1840 in 0.15 seconds
+0006.765 (0) Table realestate_wfHits: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfHits.table.gz - 53.3 KB)
+0006.777 (0) Table realestate_wfHoover: Total expected rows (approximate): 0
+0006.800 (0) Table realestate_wfHoover: Total rows added: 0 in 0.02 seconds
+0006.804 (0) Table realestate_wfHoover: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfHoover.table.gz - 0.3 KB)
+0006.816 (0) Table realestate_wfIssues: Total expected rows (approximate): 1
+0006.843 (0) Table realestate_wfIssues: Total rows added: 1 in 0.02 seconds
+0006.846 (0) Table realestate_wfIssues: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfIssues.table.gz - 0.9 KB)
+0006.866 (0) Table realestate_wfLeechers: Total expected rows (approximate): 289
+0006.904 (0) Table realestate_wfLeechers: Total rows added: 289 in 0.03 seconds
+0006.913 (0) Table realestate_wfLeechers: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLeechers.table.gz - 1.7 KB)
+0006.937 (0) Table realestate_wfLockedOut: Total expected rows (approximate): 0
+0006.957 (0) Table realestate_wfLockedOut: Total rows added: 0 in 0.02 seconds
+0006.961 (0) Table realestate_wfLockedOut: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLockedOut.table.gz - 0.3 KB)
+0006.974 (0) Table realestate_wfLocs: Total expected rows (approximate): 0
+0006.987 (0) Table realestate_wfLocs: Total rows added: 0 in 0.01 seconds
+0006.989 (0) Table realestate_wfLocs: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLocs.table.gz - 0.3 KB)
+0007.000 (0) Table realestate_wfLogins: Total expected rows (approximate): 202
+0007.028 (0) Table realestate_wfLogins: Total rows added: 202 in 0.03 seconds
+0007.031 (0) Table realestate_wfLogins: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLogins.table.gz - 5.2 KB)
+0007.041 (0) Table realestate_wfNet404s: Total expected rows (approximate): 0
+0007.060 (0) Table realestate_wfNet404s: Total rows added: 0 in 0.02 seconds
+0007.062 (0) Table realestate_wfNet404s: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfNet404s.table.gz - 0.3 KB)
+0007.074 (0) Table realestate_wfReverseCache: Total expected rows (approximate): 0
+0007.090 (0) Table realestate_wfReverseCache: Total rows added: 0 in 0.01 seconds
+0007.093 (0) Table realestate_wfReverseCache: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfReverseCache.table.gz - 0.3 KB)
+0007.109 (0) Table realestate_wfScanners: Total expected rows (approximate): 69
+0007.127 (0) Table realestate_wfScanners: Total rows added: 69 in 0.01 seconds
+0007.130 (0) Table realestate_wfScanners: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfScanners.table.gz - 0.9 KB)
+0007.144 (0) Table realestate_wfStatus: Total expected rows (approximate): 984
+0007.211 (0) Table realestate_wfStatus: Total rows added: 984 in 0.06 seconds
+0007.216 (0) Table realestate_wfStatus: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfStatus.table.gz - 15.3 KB)
+0007.239 (0) Table realestate_wfThrottleLog: Total expected rows (approximate): 0
+0007.262 (0) Table realestate_wfThrottleLog: Total rows added: 0 in 0.01 seconds
+0007.267 (0) Table realestate_wfThrottleLog: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfThrottleLog.table.gz - 0.3 KB)
+0007.280 (0) Table realestate_wfVulnScanners: Total expected rows (approximate): 0
+0007.297 (0) Table realestate_wfVulnScanners: Total rows added: 0 in 0.01 seconds
+0007.300 (0) Table realestate_wfVulnScanners: finishing file (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfVulnScanners.table.gz - 0.3 KB)
+0007.308 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_options.table.gz (1/40): adding to final database dump
+0007.595 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_users.table.gz (2/40): adding to final database dump
+0007.598 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_usermeta.table.gz (3/40): adding to final database dump
+0007.603 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_commentmeta.table.gz (4/40): adding to final database dump
+0007.608 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_comments.table.gz (5/40): adding to final database dump
+0007.615 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_links.table.gz (6/40): adding to final database dump
+0007.626 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_postmeta.table.gz (7/40): adding to final database dump
+0008.284 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_posts.table.gz (8/40): adding to final database dump
+0008.546 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_term_relationships.table.gz (9/40): adding to final database dump
+0008.579 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_term_taxonomy.table.gz (10/40): adding to final database dump
+0008.586 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_termmeta.table.gz (11/40): adding to final database dump
+0008.590 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_terms.table.gz (12/40): adding to final database dump
+0008.594 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_email.table.gz (13/40): adding to final database dump
+0008.598 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_itsec_lockouts.table.gz (14/40): adding to final database dump
+0008.603 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_itsec_log.table.gz (15/40): adding to final database dump
+0008.610 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_itsec_temp.table.gz (16/40): adding to final database dump
+0008.614 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_css.table.gz (17/40): adding to final database dump
+0008.618 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_layer_animations.table.gz (18/40): adding to final database dump
+0008.623 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_settings.table.gz (19/40): adding to final database dump
+0008.631 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_sliders.table.gz (20/40): adding to final database dump
+0008.682 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_revslider_slides.table.gz (21/40): adding to final database dump
+0008.698 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfBadLeechers.table.gz (22/40): adding to final database dump
+0008.701 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfBlocks.table.gz (23/40): adding to final database dump
+0008.705 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfBlocksAdv.table.gz (24/40): adding to final database dump
+0008.709 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfConfig.table.gz (25/40): adding to final database dump
+0008.718 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfCrawlers.table.gz (26/40): adding to final database dump
+0008.721 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfFileMods.table.gz (27/40): adding to final database dump
+0009.017 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfHits.table.gz (28/40): adding to final database dump
+0009.045 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfHoover.table.gz (29/40): adding to final database dump
+0009.048 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfIssues.table.gz (30/40): adding to final database dump
+0009.051 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLeechers.table.gz (31/40): adding to final database dump
+0009.056 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLockedOut.table.gz (32/40): adding to final database dump
+0009.059 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLocs.table.gz (33/40): adding to final database dump
+0009.062 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfLogins.table.gz (34/40): adding to final database dump
+0009.069 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfNet404s.table.gz (35/40): adding to final database dump
+0009.072 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfReverseCache.table.gz (36/40): adding to final database dump
+0009.075 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfScanners.table.gz (37/40): adding to final database dump
+0009.079 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfStatus.table.gz (38/40): adding to final database dump
+0009.096 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfThrottleLog.table.gz (39/40): adding to final database dump
+0009.101 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db-table-realestate_wfVulnScanners.table.gz (40/40): adding to final database dump
+0009.116 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db.gz: finished writing out complete database file (4168 KB)
+0009.257 (0) Total database tables backed up: 40 (backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db.gz, size: 4280769, sha256)
+0009.272 (0) backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.275 (0) Saving backup history. Total backup size: 4.1 MB
+0009.284 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0009.290 (0) Cloud backup selection (1/1): none (last)
+0009.293 (0) No remote despatch: user chose no remote backup service
+0009.296 (0) Recording as successfully uploaded: backup_2019-03-15-1031_Norfolk_Chesapeake_Virginia_Beac_6f00bd262bab-db.gz (0679b33f57f78c5b96668569113cd955)
+0009.309 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.312 (0) Number of backup sets in history: 3; groups (db): 1
+0009.314 (0) Examining (for databases) backup set with group_id=0, nonce=6f00bd262bab, datestamp=1552645872 (Mar 15 2019 10:31:12)
+0009.316 (0) This backup set is the backup set just made, so will not be deleted.
+0009.318 (0) Examining (for databases) backup set with group_id=0, nonce=5b5e9d3b8638, datestamp=1494618557 (May 12 2017 19:49:17)
+0009.320 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.321 (0) Examining (for databases) backup set with group_id=0, nonce=0fb7f6a8c66b, datestamp=1476379163 (Oct 13 2016 17:19:23)
+0009.323 (0) 1476379163: db: this set includes a database (backup_2016-10-13-1719_realestate_0fb7f6a8c66b-db.gz); db count is now 2
+0009.325 (0) 1476379163: db: over retain limit (2); will delete this database
+0009.326 (0) Delete file: backup_2016-10-13-1719_realestate_0fb7f6a8c66b-db.gz, service=none
+0009.331 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0009.333 (0) Number of backup sets in history: 3; groups (files): 1
+0009.336 (0) Examining (for files) backup set with nonce=6f00bd262bab, datestamp=1552645872 (Mar 15 2019 10:31:12)
+0009.337 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0009.339 (0) Examining (for files) backup set with nonce=5b5e9d3b8638, datestamp=1494618557 (May 12 2017 19:49:17)
+0009.341 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.343 (0) Examining (for files) backup set with nonce=0fb7f6a8c66b, datestamp=1476379163 (Oct 13 2016 17:19:23)
+0009.344 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0009.346 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0009.353 (0) Resume backup (6f00bd262bab, 0): finish run
+0009.357 (0) Decremented the semaphore (d) by 1
+0009.359 (0) Semaphore (d) unlocked
+0009.361 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0009.368 (0) No email will/can be sent - the user has not configured an email address.
+0009.370 (0) The backup apparently succeeded and is now complete

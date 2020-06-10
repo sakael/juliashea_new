@@ -1,0 +1,70 @@
+Survey Title: Client Satisfaction Survey
+Completed by viravira@yahoo.com[Julia Shea] on March 17th, 2013
+
+1 => Not at all Satisfied
+2 => 2
+3 => Slightly Satisfied
+4 => 4
+5 => Neutral
+6 => 6
+7 => Moderately Satisfied
+8 => 8
+9 => Very Satisfied
+10 => Completely Satisfied
+
+Q.1. How well did I deliver what I promised?
+A. Completely Satisfied
+
+Q.2. Comments Question 1:
+A. All that we talk at the first visit happen at a timely and progressive process, with no details left to improvisation.
+
+Q.3. How accessible was I when you needed to contact me?
+A. Completely Satisfied
+
+Q.4. Comments Question 2:
+A. Always accessible by phone, cell, text, e-mail.
+
+Q.5. How well did I listen to you?
+A. Completely Satisfied
+
+Q.6. Comments Question 3:
+A. not only did you listen to us but also were you able to go beyond and captured what we wanted and needed, even when we din dot knew it, from being inexperienced buyers.
+
+Q.7. How willing would you be to recommend me?
+A. Completely Satisfied
+
+Q.8. Comments Question 4:
+A. You will be recommended with the same strength you were recommended to us.
+
+Q.9. How would you rate my quality of service?
+A. Completely Satisfied
+
+Q.10. Comments Question 5:
+A. Extremely professional, attentive, available, duteous. Impeccable.
+
+Q.11. If you were in charge of my business, what one thing would you change?
+A. nothing needs to be change
+
+Q.12. What is the one thing I could add to my service to make it a 10+?
+A. you are already giving a 10+ service
+
+Q.13. How could I do a better job of serving you?
+A. no need to change
+
+Q.14. I would appreciate any referrals of your friends and family to me.  Who do you know that is thinking about making a move?
+A. nobody yet, but you will be recommended, of course
+
+Q.15. Is there anything else you would like to share with me?
+A. Eternal gratefulness
+
+Questions for Info
+
+Q.1. Names / Birthdays (Month/Day)
+A. Ramon Virasoro (4/19/68) Carolina Casellini (9/15/70)
+
+Q.2. What are your favorite restaurant(s) or food?
+A. any
+
+Q.3. Social Media IDs (LinkedIn, Twitter, WindowsIM, Facebook, MySpace)
+A. 
+
